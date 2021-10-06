@@ -1,200 +1,674 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
-
 <head>
-  <title>Email Development</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+                 /* DESKTOP */
+        @media only screen and (min-width:960px">width:960px){
+          .container{
+            width: 960px;
+          }
+        }
+              /* MIDSIZES */
+        @media only screen and (max-width:960px">width:960px){
+          .container{
+            width: 600px;
+          }
+        }
+             /* MOBILE */
+        @media only screen and (max-width:600px){
+          .container{
+            width: 100%;
+            text-align: center;
+          }
+        }
+  </style>
+  
+  <title>HERO® Fitness App</title>
 </head>
+<body style="font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; margin:0;">
+  
+  <!--start of email-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <!--start of container-->
+      <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
+      
+        <!--start of header-row-->
+        <tr>
+          <td>
+            <!--start of left-side-->
+            <table class="header-left" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="background: rgb(180,189,200);
+            background: linear-gradient(140deg, rgba(180,189,200,1) 0%, rgba(59,103,124,1) 100%);; font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:white; padding: 15px 15px 70px 15px">
+              <tr>
+                <td>
+                  <img src="img/logo-2.png" style="margin-bottom:40px;">
+                  <h2 style="font-size: 35px; font-weight: 300; margin: 0; line-height: 1;">Get ready for</h2>
+                  <h1 style="font-size: 80px; font-weight: 700; margin: 0; line-height: 1; padding: 0 0 10px;">HERO</h1>
+                  <p style="font-style: italic; font-size: 14px; font-weight: 600; margin: 0; line-height: 1.5; padding: 20px 0 50px;">
+                    With so many fitness apps launching every year, it can be hard to know which one is best for you.<br><br>Meet your new hero.
+                  </p>
+                  <a href="#" class="btn" style="color: white; border-radius: 2px; border: 2px solid #fff; padding:6px 15px; text-decoration: none; font-weight: 700; text-transform: uppercase; font-size: 12px;">Learn More</a>
+                </td>
+              </tr>
+            </table>
+            <!--end of left-side-->
 
-<!-- font-family: 'Open Sans', sans-serif; -->
 
-<body>
-  <!-- start of htmlemail -->
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-
-      <td>
-
-        <!-- start of container -->
-        <table class="container" width="600" align="center" cellpadding="0" cellspacing="0" border="0">
-
-          <!-- start of header row -->
-
-          <tr>
-
-            <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
-              <!-- start of left-col -->
-              <table class="header-left" width="50%" align="left" cellpadding="0" cellspacing="0" border="0"
-              style="background: #0cfffd; background: -moz-linear-gradient(-45deg, #0cfffd 0%, #2996ee 100%);
-              background: -webkit-linear-gradient(-45deg, #0cfffd 0%,#2996ee 100%);
-              background: linear-gradient(135deg, #0cfffd 0%,#2996ee 100%); padding: 15px 15px 70px 15px;">
-              
-
+            <!--start of right-side-->
+            <table class="header-right" width="50%" align="right" cellpadding="0" cellspacing="0" border="0"
+                style="background: white;">
                 <tr>
-                  <td style="color: white;">
-                    <img src="/img/logo.png" alt="">
-                    <h2 style="padding: 25px 0 10px; font-size: 30px; margin: 0;
-                    font-weight: 300; line-height: 1;">Get ready for</h2>
-                    <h1 style="font-size: 80px; margin: 0; line-height: 1; padding: 0 0 10px;">Hero</h1>
-                    <p style="font-style: italic; font-size: 14px; margin: 0; line-height: 1.5; padding: 20px 0 50px;">
-                      Fact: hundreds of new smart watch apps launch every week,
-                      but which ones should you bother trying?
-                    </p>
-                    <a href="#" class="ghost-btn" style="font-size: 12px; border-radius: 3px; border: 2px solid white; text-decoration: none; color: white; padding: 10px 15px; text-transform: uppercase;">Learn More</a>
-                  </td>
-                </tr>
-              </table>
-              <!-- end of left-col -->
-              
-              <!-- start of right-col -->
-              
-              <table class="header-right" width="50%" align="right" cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                  
-                  <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #7d7d7d;">
-                    <table class="container" width="100%" align="center"
-                    cellpadding="0" cellspacing="0" border="0" style="padding: 20px;">
+                  <td>
+                    <table class="menu" width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+                      style="padding: 20px;">
                       <tr>
-                        <td align="center">
-                          <a href="#" style="font-size: 14px;
-                          color: #7d7d7d; font-weight: 600; text-decoration: none;">About</a>
+                        <td>
+                          <a href="#" style="font-size: 14px; color: #7d7d7d; font-weight: 600; text-decoration: none;">About</a>
                         </td>
-                        <td align="center">
-                          <a href="#" style="font-size: 14px;
-                          color: #7d7d7d; font-weight: 600; text-decoration: none;">Careers</a>
+                        <td>
+                          <a href="#" style="font-size: 14px; color: #7d7d7d; font-weight: 600; text-decoration: none;">Careers</a>
                         </td>
-                        <td align="center">
-                          <a href="#" style="font-size: 14px;
-                          color: #7d7d7d; font-weight: 600; text-decoration: none;">Contact</a>
+                        <td>
+                          <a href="#" style="font-size: 14px; color: #7d7d7d; font-weight: 600; text-decoration: none;">Contact</a>
                         </td>
                       </tr>
                     </table>
                   </td>
                 </tr>
                 <tr>
-                  <td align="center" valign='bottom' style="padding-top: 20px;">
-                    <img src="/img/smartwatch.png" alt="">
+                  <td>
+                    <img src="img/smartwatch.png" alt="">
+                    <!-- <img src="https://cdn-magento.mykronoz.com/media/catalog/product/cache/9/thumbnail/760x/e4d92e6aceaad517e7b5c12e0dc06587/s/m/smartwatch-circular-color-touchscreen-blue-zeround2_2.png" alt="" style="width: 120%; margin: 38px 0 0 -35px;"> -->
+                    <!-- <img src="https://imagineonline.store/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWhkRzR3ZVRWcmRYRmthRFZyY0c5aE9HUmtaM0kxWTNSa01HUTFNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWsxSE1UUXpTRTR0UVY4eExuQnVaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuVFVjeE5ETklUaTFCWHpFdWNHNW5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lPYVcxaFoyVXZjRzVuQmpzR1ZBPT0iLCJleHAiOiIyMDIxLTEwLTAyVDE5OjQ2OjIyLjM5MloiLCJwdXIiOiJibG9iX2tleSJ9fQ==--361dc5ee361969f2d796995578484e83502856ce/MG143HN-A_1.png?content_type=image%2Fpng&disposition=inline%3B+filename%3D%22MG143HN-A_1.png%22%3B+filename%2A%3DUTF-8%27%27MG143HN-A_1.png" alt="" style="width: 160%; position: absolute; margin: -44px 0 0 -75px;"> -->
+                    <!-- <img src="https://www.sunrise.ch/var/commerce/products/web/Default/en/apple_watch_se_44mmsilvernavyloopparent/variants/000000000000021006/picture.1600253806434.transform/grid-device-teaser/apple_watch_se_cellular44mmsilveraluminumdeepnavysportloop34rscr.png" alt="" style="width: 135%; position: absolute; margin: 26px 0 0 -45px;"> -->
                   </td>
                 </tr>
               </table>
+            <!-- end of right-side -->
 
-              <!-- end of right-col -->
-            </td>
 
-          </tr>
+          </td>
+        </tr>
+                  
+        <!--end of header-row-->
+        
+      
+        <!--start of hero-row-->
+        <tr>
+          <td class="lets-you-row" style="background: #f8f8f8;">
+            <h3 style="font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 25px; font-weight: 300; color: #383838;" align="center">
+              Hero lets you...
+            </h3>
+            <!-- start of left-column -->
+            <table class="left-column" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0" style="padding: 15px 15px 70px 15px;">
+              <tr>
+                <td>
+                  <table class="title-icon" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0"
+                      style="padding: 0;">
+                      <tr>
+                        <td>
+                          <img src="img/bell_icon.png" alt="">
+                        </td>
+                        <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                        Arial, 'Lucida Grande', sans-serif; color: #333333; padding: 0 0 0 15px;
+                        font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                          NOTIFY
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                  Arial, 'Lucida Grande', sans-serif; color: #7f8887;
+                  font-weight: 400; font-size: 14px; line-height: 1.8;">
+                  Get haptic feedback whenever you've surpassed your fitness goals.
 
-          <!-- end of header row -->
-
-          <!-- start of hero row -->
-
-          <tr>
-
-            <td>
-              <h3>Hero let's you go...</h3>
-              <table class="header-left" width="33.33%" align="left" cellpadding="0"
-              cellspacing="0" border="0" style="padding: 15px 15px 70px 15px;">
+                  </p>
+                </td>
                 <tr>
                   <td>
-                    <i class="fas fa-bell"></i>
-                    NOTIFY
+                    <a href="#" style="text-decoration:none; font-size:14px; color:#2792ec;">Learn More</a>
                   </td>
                 </tr>
-                
+              </tr>
+            </table>
+            <!--end of left-column-->
+            <!--start of middle-column-->
+            <table class="hero-middle-column" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0" style="padding: 15px 15px 70px 15px;">
+              <tr>
+                <td>
+                  <table class="title-icon" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0"
+                      style="padding: 0;">
+                      <tr>
+                        <td>
+                          <img src="img/share_icon.png" alt="">
+                        </td>
+                        <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                        Arial, 'Lucida Grande', sans-serif; color: #333333; padding: 0 0 0 15px;
+                        font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                          share
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                  Arial, 'Lucida Grande', sans-serif; color: #7f8887;
+                  font-weight: 400; font-size: 14px; line-height: 1.8;">
+                    Seamlessy share your accomplishments with your contacts with just two taps.
+                  </p>
+                </td>
                 <tr>
                   <td>
-
+                    <a href="#" style="text-decoration:none; font-size:14px; color:#2792ec;">Learn More</a>
                   </td>
                 </tr>
-                
+              </tr>
+            </table>
+            <!--end of middle-column-->
+            <!--start of right-column-->
+            <table class="hero-right-column" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0" style="padding: 15px 15px 70px 15px;">
+              <tr>
+                <td>
+                  <table class="title-icon" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0"
+                      style="padding: 0;">
+                      <tr>
+                        <td>
+                          <img src="img/wifi_icon.png" alt="">
+                        </td>
+                        <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                        Arial, 'Lucida Grande', sans-serif; color: #333333; padding: 0 0 0 15px;
+                        font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                          connect
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                  Arial, 'Lucida Grande', sans-serif; color: #7f8887;
+                  font-weight: 400; font-size: 14px; line-height: 1.8;">
+                    Sync all your accomplishments wih our servers at <a href="#" style="text-decoration: none; color: #2792ec;">hero.io</a> and never lose progress.
+                  </p>
+                </td>
                 <tr>
                   <td>
+                    <a href="#" style="text-decoration:none; font-size:14px; color:#2792ec;">Learn More</a>
+                  </td>
+                </tr>
+              </tr>
+            </table>
+            <!--end of right-column-->
+          </td>
+        </tr>
+        <!--end of hero-row-->
+        
+      
+        <!--start of advance-row-->
+        <tr>
+          <td>
+            <!--start of image-head-->
+            <table class="image-head" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="padding-top: 50px">
+              <tr>
+                <td>
+                  <img src="https://watchaware.com/wp-content/uploads/2015/04/Best-Apple-Watch-Fitness-Apps1.jpg" style="width: 100%; height: auto;">
+                </td>
+              </tr>
+            </table>
+              <!--end of image-head-->
+              <!--start of most-advance-->
+              <table class="most-advance-row" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="padding: 0 0 42px;">
+              <tr>
+                <td>
+                  <h2 style="font-weight: 300;" align="center">
+                    World’s <strong style="font-weight: 400;">most advance app</strong><br>with high-tech solutions
+                  </h2>
+                </td>
+              </tr>
+              </table>
+            <!--end of most-advance-->
+            <!--end advance-row-->
+            
+            <!--right-side-->
+            <table class="advance-info" width="50%" align="left" cellpadding="0" cellspacing="0" border="0" style="padding: 0 0 0 32px;">
+              <tr>
+                <td>
+                  <p style="color: #7f8887;font-weight: 400;font-size: 14px;line-height: 1.8; margin-top: -29px;">
+                    The Hero app uses advanced tracking to anonomously monitor your movements, be it sleeping, walking, running, or even standing. No matter the activity, Hero is built to give you the most accurate information.
+                  </p>
+                  <a href="#"><img style="padding-top: 36px;" src="img/playstore.png" alt="" align="right"></a>
+                </td>
+              </tr>
+            </table>
+            <!--left-side-->
+            <table class="advance-info" width="50%" align="right" cellpadding="0" cellspacing="0" border="0" style="padding: 0 0 0 32px;">
+              <tr>
+                <td>
+                  <p style="color: #7f8887;font-weight: 400;font-size: 14px;line-height: 1.8; margin-top: -29px;">
+                    The Hero app uses advanced tracking to anonomously monitor your movements, be it sleeping, walking, running, or even standing. No matter the activity, Hero is built to give you the most accurate information.
+                  </p>
+                  <a href="#"><img style="padding-top: 36px;" src="img/appstore.png" alt=""></a>
+                </td>
+              </tr>
+            </table>
+            <!--end advance-info-->
 
+          </td>
+        </tr>
+        <!--end of advance-row-->
+        
+      
+        <!--start oneapp-row-->
+        <tr>
+          <td>
+            <table class="one-app-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="margin-top: 50px; background: #141414;">
+              <tr>
+                <td>
+                  <img src="img/one_app.jpg" alt="" style="width: 100%; height: auto;">
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--end of oneapp-row-->
+        
+      
+        <!--start of joined-together-row-->
+        <tr>
+          <td>
+            <table class="one-solution-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 0 75px; background: white;">
+              <tr>
+                <td>
+                  <h3 style="font-size: 25px; font-weight: 300; color: #383838;" align="center">Features <strong>All Joined Together</strong> in One App</h3>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!--start of left column-->
+                  <table class="left-column-table" width="33.33%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px; background: white;">
+                    <tr>
+                      <td align="center">
+                        <img style="width: 70%; height: auto;"src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/applewatch/watchos4-series2-workout-icon-watch-face.png" alt="">
+                      </td>
+                      <tr>
+                        <td align="center">
+                          <h5 style="color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                            Sync
+                          </h5>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <p style="color: #7f8887; font-weight: 400; font-size: 14px; margin: 0; padding: 0 0 15px 0;">
+                            Sync your stats for progress tracking.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <a style="text-decoration:none; font-size:14px; color:#2792ec;" href="#">Learn more</a>
+                        </td>
+                      </tr>
+                    </tr>
+                  </table>
+                  <!--end of left column-->
+
+                  <!--start of middle column-->
+                  <table class="middle-column-table" width="33.33%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px; background: white;">
+                    <tr>
+                      <td align="center">
+                        <img style="width: 70%; height: auto;" src="https://support.apple.com/library/content/dam/edam/applecare/images/es_MX/applewatch/watchos3-customize-watch-face.png" alt="">
+                      </td>
+                      <tr>
+                        <td align="center">
+                          <h5 style="color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                            Share
+                          </h5>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <p style="color: #7f8887; font-weight: 400; font-size: 14px; margin: 0; padding: 0 0 15px 0;">
+                            Share your stats with contacts and friends.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <a style="text-decoration:none; font-size:14px; color:#2792ec;" href="#">Learn more</a>
+                        </td>
+                      </tr>
+                    </tr>
+                  </table>
+                  <!--end of middle column-->
+
+                  <!--start of right column-->
+                  <table class="right-column-table" width="33.33%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px; background: white;">
+                    <tr>
+                      <td align="center">
+                        <img style="width: 70%; height: auto;" src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/applewatch/watchos4-series2-notification-icon-watch-face.png" alt="">
+                      </td>
+                      <tr>
+                        <td align="center">
+                          <h5 style="color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                            stats
+                          </h5>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <p style="color: #7f8887; font-weight: 400; font-size: 14px; margin: 0; padding: 0 0 15px 0;">
+                            Track your stats to determine progress.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <a style="text-decoration:none; font-size:14px; color:#2792ec;" href="#">Learn more</a>
+                        </td>
+                      </tr>
+                    </tr>
+                  </table>
+                  <!--end of right column-->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--end of joined-together-row-->
+        
+        
+        <!--start of details-row-1-->
+        <tr>
+          <td>
+            <table class="detail-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
+              <tr>
+                <td>
+                  <!--start of one-row table-->
+                  <table class="one-row-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0;">
+                    <tr>
+                      <td>
+                        <!--start of right-column-->
+                        <table class="right-detail-column-table" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="img/phone_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  Responsive Layout
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                Our app is perfected for any size smart watch that you own.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of right-column-->
+
+                        
+                        <!--start of left-column-->
+                        <table class="left-detail-column-table" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="img/retina.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  Retina Ready
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                The highest quality resolution available for easy viewing and crisp UI.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of left-column-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--end of one-row table-->
+            </table>
+          </td>
+        </tr>
+        <!--end of details-row-->
+        <!--start of details-row-2-->
+        <tr>
+          <td>
+            <table class="detail-table-2" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
+              <tr>
+                <td>
+                  <!--start of one-row table-->
+                  <table class="one-row-table-2" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0; margin-top: -50px;">
+                    <tr>
+                      <td>
+                        <!--start of right-column-->
+                        <table class="right-detail-column-table-2" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="img/check_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  Various Skins
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                Customize your experience with the many skins we have to choose from, with more coming soon.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of right-column-->
+
+                        
+                        <!--start of left-column-->
+                        <table class="left-detail-column-table-2" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="img/settings_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  Great Performance
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                We are committed to providing a great Hero experience by providing plenty of updates for years to come.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of left-column-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--end of one-row table-->
+            </table>
+          </td>
+        </tr>
+        <!--end of details-row-2-->
+        <!--start of details-row-3-->
+        <tr>
+          <td>
+            <table class="detail-table-3" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
+              <tr>
+                <td>
+                  <!--start of one-row table-->
+                  <table class="one-row-table-3" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0; margin-top: -50px;">
+                    <tr>
+                      <td>
+                        <!--start of right-column-->
+                        <table class="right-detail-column-table-3" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="img/menu_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  user-friendly menus
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                Easy to use menus so you can focus on your goals, and not how to navigate our app.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of right-column-->
+
+                        
+                        <!--start of left-column-->
+                        <table class="left-detail-column-table-3" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="img/share_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  social share
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                Seamlessy share your profile and stats to any social network; invite friends & sync goals for constant motivation.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of left-column-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--end of one-row table-->
+            </table>
+          </td>
+        </tr>
+        <!--end of details-row-3-->
+      
+        
+      
+        <!--start of quote-row-->
+        <tr>
+          <td>
+            <table class="quote-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="background: rgb(180,189,200);
+            background: linear-gradient(90deg, rgba(180,189,200,1) 0%, rgba(59,103,124,1) 100%);; font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:white; padding: 15px 15px 60px 15px">
+              <tr align="center">
+                <td>
+                  <h3 style="font-size:30px; font-weight: 300; margin: 65px 0 0; line-height: 1;" align="center">Intrusted In Our App?</h3>
+                  <p style="font-size: 14px; font-weight: 400; margin: 42px 40px 50px; line-height: 1.5;" align="center">
+                    We are currently in our second wave of fundraising to provide the best fitness app that the market has ever seen. If you believe in hero as much as we do, we've included plenty of heroic incentives for those that donate to our campaign.
+                  </p>
+                  <a href="#" class="btn" style="color: white; border-radius: 2px; border: 2px solid #fff; padding:6px 15px; text-decoration: none; font-weight: 700; text-transform: uppercase; font-size: 12px;">Learn More</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--end of quote-row-->
+        
+      
+        <!--start of footer-row-->
+        <tr>
+          <td>
+            <table class="footer-table" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0 40px;">
+              <tr>
+                <td>
+                  <h1 align="center" style="font-size: 25px;">
+                    HERO<span style="font-size: 10px; font-weight: 300;">&#174;</span>
+                  </h1>
+                </td>
+              </tr>
+              <table class="footer-icons" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="center">
+                    <img src="img/twitter_icon.png" alt="" style="padding-right: 5px;">
+                    <img src="img/facebook_icon.png" alt="" style="padding-right: 5px;">
+                    <img src="img/google_icon.png" alt="" style="padding-right: 5px;">
+                    <img src="img/pinterest_icon.png" alt="" style="padding-right: 5px;">
+                    <img src="img/linkedin_icon.png" alt="" style="padding-right: 5px;">
+                    <img src="img/youtube_icon.png" alt="" style="padding-right: 5px;">
+                    <p style="font-size: 9px; color: #7f8887; margin: 50px 0 15px;">
+                      © 2021 All rights reserved - Hero Fitness. Is your inbox overflowing? <a style="text-decoration: none; color: #2792ec;" href="#">Unsubscribe</a>
+                    </p>
                   </td>
                 </tr>
               </table>
-              <table class="header-left" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0"
-              style="background: #0cfffd; background: -moz-linear-gradient(-45deg, #0cfffd 0%, #2996ee 100%);
-              background: -webkit-linear-gradient(-45deg, #0cfffd 0%,#2996ee 100%);
-              background: linear-gradient(135deg, #0cfffd 0%,#2996ee 100%); padding: 15px 15px 70px 15px;">
-
-              </table>
-              <table class="header-left" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0"
-              style="background: #0cfffd; background: -moz-linear-gradient(-45deg, #0cfffd 0%, #2996ee 100%);
-              background: -webkit-linear-gradient(-45deg, #0cfffd 0%,#2996ee 100%);
-              background: linear-gradient(135deg, #0cfffd 0%,#2996ee 100%); padding: 15px 15px 70px 15px;">
-
-              </table>
-            </td>
-
-          </tr>
-
-          <!-- end of hero row -->
-
-          <!-- start of main row -->
-
-          <tr>
-
-            <td></td>
-
-          </tr>
-
-          <!-- end of main row -->
-
-          <!-- start of main row -->
-
-          <tr>
-
-            <td></td>
-
-          </tr>
-
-          <!-- end of main row -->
-          <!-- start of main row -->
-
-          <tr>
-
-            <td></td>
-
-          </tr>
-
-          <!-- end of main row -->
-          <!-- start of main row -->
-
-          <tr>
-
-            <td></td>
-
-          </tr>
-
-          <!-- end of main row -->
-          <!-- start of main row -->
-
-          <tr>
-
-            <td></td>
-
-          </tr>
-
-          <!-- end of main row -->
-          <!-- start of main row -->
-
-          <tr>
-
-            <td></td>
-
-          </tr>
-
-          <!-- end of main row -->
-
-        </table>
-        <!-- end of container -->
-
-      </td>
-
-    </tr>
-  </table>
-  <!-- end of htmlemail -->
+            </table>
+          </td>
+        </tr>
+        <!--end of footer-row-->
+        
+      </table>
+      <!--end of container-->
+    </td>
+  </tr>
+</table>
+  <!--end of email-->
+  
 </body>
-
 </html>
+
