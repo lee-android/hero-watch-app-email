@@ -1,0 +1,919 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+                 /* DESKTOP */
+        @media only screen and (min-width:960px)
+        only screen and (-o-min-device-pixel-ratio: 3/2),
+        only screen and (min--moz-device-pixel-ratio: 1.5),
+        only screen and (min-device-pixel-ratio: 1.5){
+
+          html,
+          body{
+            width: 100%;
+            overflow-x: hidden;
+          }
+
+          .container{
+            width: 960px;
+          }
+          
+        }
+              /* MIDSIZES */
+        @media only screen and (max-width:960px)
+        only screen and (-o-min-device-pixel-ratio: 3/2),
+        only screen and (min--moz-device-pixel-ratio: 1.5),
+        only screen and (min-device-pixel-ratio: 1.5){
+
+          html,
+          body{
+            width: 100%;
+            overflow-x: hidden;
+          }
+
+          .container{
+            width: 600px;
+          }
+
+          .header-left{
+            padding: 50px 15px 70px 15px !important;
+          }
+
+          .header-right{
+            /* position: relative; */
+          }
+
+          img.header-watch{
+            width: 150% !important;
+            margin: 30px 0 0 -37px !important;
+            /* position: absolute; */
+          }
+
+          
+
+        }
+             /* MOBILE */
+        @media only screen and (max-width:600px),
+        only screen and (-o-min-device-pixel-ratio: 3/2),
+        only screen and (min--moz-device-pixel-ratio: 1.5),
+        only screen and (min-device-pixel-ratio: 1.5){
+
+          html,
+          body{
+            width: 100%;
+            overflow-x: hidden;
+          }
+
+
+          .container{
+            width: 100%;
+          }
+
+          .header-left{
+            width: 100%;
+            display: inline-block;
+          }
+          
+          .header-left p{
+            padding: 20px 10px 50px 0 !important;
+          }
+
+          .menu{
+            margin: 0 40px !important;
+          }
+
+          .header-right{
+            width: 100%;
+          }
+          img.header-watch{
+            width: 80% !important;
+            margin: 0px 0 0px 50px !important;
+          }
+
+          .lets-you-row h3{
+            padding: 0 0 50px;
+          }
+
+          .lets-you-row .left-column{
+            width: 100%;
+          }
+
+          .lets-you-row .hero-middle-column{
+            width: 100%;
+          }
+
+          .lets-you-row .hero-right-column{
+            width: 100%;
+            /* margin: -51px 25px 0; */
+            /* text-align: center; */
+          }
+          
+          .lets-you-row .hero-right-column .title-icon{
+            /* margin: 0 60px; */
+          }
+
+          .advance-info-left{
+            width: 100%;
+            padding: 0 25px !important;
+            margin: 20px 0;
+          }
+          
+          .advance-info-left p{
+            margin-top: -25px !important;
+          }
+          
+          .advance-info-left img{
+            padding: 25px 0 0 !important;
+            /* position: relative; */
+            /* margin: -1px 0 0 140px; */
+          }
+          
+          .advance-info-right{
+            width: 100%;
+            padding: 0 25px !important;
+            margin: 20px 0;
+          }
+          
+          .advance-info-right img{
+            padding: 25px 0 0 !important;
+            margin: 0px 0px 25px;
+            /* position: absolute; */
+          }
+
+          .play-store{
+            width: 100%;
+            text-align: center;
+          }
+
+          .app-store{
+            width: 100%;
+            text-align: center;
+          }
+
+          .left-column-table{
+            width: 50%;
+          }
+          
+          .middle-column-table{
+            width: 50%;
+          }
+          
+          .right-column-table{
+            width: 100%;
+            padding: 50px 0 0 0 !important;
+          }
+          
+          .right-column-table img{
+            width: 30% !important;
+            height: auto;
+          }
+
+          .right-column-table p{
+            padding: 0 92px 15px !important;
+          }
+
+          .right-detail-column-table{
+            width: 100%;
+            margin: 25px 0 25px;
+          }
+          .right-detail-column-table .icon-table img{
+            width: 50%;
+            padding: 0px 4px;
+          }
+          .right-detail-column-table p{
+            padding: 0 40px;
+          }
+          .left-detail-column-table{
+            width: 100%;
+            margin: 25px 0 25px;
+          }
+          .left-detail-column-table .icon-table img{
+            width: 40%;
+            padding: 0px 4px;
+          }
+          .left-detail-column-table p{
+            padding: 0 40px;
+          }
+          .right-detail-column-table-2{
+            width: 100%;
+            margin: 25px 0 25px;
+          }
+          .right-detail-column-table-2 img{
+            width: 40%;
+            padding: 0px 4px;
+          }
+          .right-detail-column-table-2 p{
+            padding: 0 40px;
+          }
+          .left-detail-column-table-1{
+            width: 100%;
+            margin: 25px 0 25px;
+          }
+          .right-detail-column-table-2{
+            width: 100%;
+            margin: -33px 0 25px;
+          }
+
+          .left-detail-column-table-2 {
+            width: 100%;
+            margin: 25px 0 25px;
+          }
+          .left-detail-column-table-2 .icon-table img{
+            width: 50%;
+            padding: 0px 4px;
+          }
+          .left-detail-column-table-2 p{
+            padding: 0 40px;
+          }
+          .right-detail-column-table-3{
+            width: 100%;
+            margin: -25px 0 25px;
+          }
+          .right-detail-column-table-3 .icon-table img{
+            width: 50%;
+            padding: 0px 4px;
+          }
+          .right-detail-column-table-3 p{
+            padding: 0 40px;
+          }
+          .left-detail-column-table-3{
+            width: 100%;
+            margin: 25px 0 25px;
+          }
+          .left-detail-column-table-3 .icon-table img{
+            width: 40%;
+            padding: 0px 4px;
+          }
+          .left-detail-column-table-3 p{
+            padding: 0 40px;
+          }
+            
+          /* @media only screen and (max-width:600px),
+        only screen and (-o-min-device-pixel-ratio: 3/2),
+        only screen and (min--moz-device-pixel-ratio: 1.5),
+        only screen and (min-device-pixel-ratio: 1.5){
+
+          html,
+          body{
+            width: 100%;
+            overflow-x: hidden;
+          } */
+
+        }
+  </style>
+  
+  <title>HERO® Fitness App</title>
+</head>
+<body style="font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; margin:0; padding: 0;">
+  
+  <!--start of email-->
+<table class="main-table" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <!--start of container-->
+      <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0">
+      
+        <!--start of header-row-->
+        <tr>
+          <td>
+            <!--start of left-side-->
+            <table class="header-left" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="background: rgb(180,189,200);
+            background: linear-gradient(140deg, rgba(180,189,200,1) 0%, rgba(59,103,124,1) 100%);; font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:white; padding: 15px 15px 70px 15px">
+              <tr>
+                <td>
+                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/logo-2.png" style="margin-bottom:40px;">
+                  <h2 style="font-size: 35px; font-weight: 300; margin: 0; line-height: 1;">Get ready for</h2>
+                  <h1 style="font-size: 80px; font-weight: 700; margin: 0; line-height: 1; padding: 0 0 10px;">HERO</h1>
+                  <p style="font-style: italic; font-size: 14px; font-weight: 600; margin: 0; line-height: 1.5; padding: 20px 0 50px;">
+                    With so many fitness apps launching every year, it can be hard to know which one is best for you.<br><br>Meet your new hero.
+                  </p>
+                  <a href="#" class="btn" style="color: white; border-radius: 2px; border: 2px solid #fff; padding:6px 15px; text-decoration: none; font-weight: 700; text-transform: uppercase; font-size: 12px;">Learn More</a>
+                </td>
+              </tr>
+            </table>
+            <!--end of left-side-->
+
+
+            <!--start of right-side-->
+            <table class="header-right" width="50%" align="right" cellpadding="0" cellspacing="0" border="0"
+                style="background: white;">
+                <tr>
+                  <td>
+                    <table class="menu" width="100%" align="center" cellpadding="0" cellspacing="0" border="0"
+                      style="padding: 20px;">
+                      <tr>
+                        <td>
+                          <a href="#" style="font-size: 14px; color: #7d7d7d; font-weight: 600; text-decoration: none;">About</a>
+                        </td>
+                        <td>
+                          <a href="#" style="font-size: 14px; color: #7d7d7d; font-weight: 600; text-decoration: none;">Careers</a>
+                        </td>
+                        <td>
+                          <a href="#" style="font-size: 14px; color: #7d7d7d; font-weight: 600; text-decoration: none;">Contact</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <!-- <img src="img/smartwatch.png" alt=""> -->
+                    <img class="header-watch" src="https://cdn-magento.mykronoz.com/media/catalog/product/cache/9/thumbnail/760x/e4d92e6aceaad517e7b5c12e0dc06587/s/m/smartwatch-circular-color-touchscreen-blue-zeround2_2.png" alt="" style="width: 120%; margin: 38px 0 0 -35px;">
+                    <!-- <img src="https://imagineonline.store/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWhkRzR3ZVRWcmRYRmthRFZyY0c5aE9HUmtaM0kxWTNSa01HUTFNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWsxSE1UUXpTRTR0UVY4eExuQnVaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuVFVjeE5ETklUaTFCWHpFdWNHNW5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lPYVcxaFoyVXZjRzVuQmpzR1ZBPT0iLCJleHAiOiIyMDIxLTEwLTAyVDE5OjQ2OjIyLjM5MloiLCJwdXIiOiJibG9iX2tleSJ9fQ==--361dc5ee361969f2d796995578484e83502856ce/MG143HN-A_1.png?content_type=image%2Fpng&disposition=inline%3B+filename%3D%22MG143HN-A_1.png%22%3B+filename%2A%3DUTF-8%27%27MG143HN-A_1.png" alt="" style="width: 160%; position: absolute; margin: -44px 0 0 -75px;"> -->
+                    <!-- <img src="https://www.sunrise.ch/var/commerce/products/web/Default/en/apple_watch_se_44mmsilvernavyloopparent/variants/000000000000021006/picture.1600253806434.transform/grid-device-teaser/apple_watch_se_cellular44mmsilveraluminumdeepnavysportloop34rscr.png" alt="" style="width: 135%; position: absolute; margin: 26px 0 0 -45px;"> -->
+                  </td>
+                </tr>
+              </table>
+            <!-- end of right-side -->
+
+
+          </td>
+        </tr>
+                  
+        <!--end of header-row-->
+        
+      
+        <!--start of hero-row-->
+        <tr>
+          <td class="lets-you-row" style="background: #f8f8f8;">
+            <h3 style="font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 25px; font-weight: 300; color: #383838;" align="center">
+              Hero lets you...
+            </h3>
+            <!-- start of left-column -->
+            <table class="left-column" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0" style="padding: 15px 15px 70px 15px;">
+              <tr>
+                <td>
+                  <table class="title-icon" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0"
+                      style="padding: 0;">
+                      <tr>
+                        <td>
+                          <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/bell_icon.png" alt="">
+                        </td>
+                        <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                        Arial, 'Lucida Grande', sans-serif; color: #333333; padding: 0 0 0 15px;
+                        font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                          NOTIFY
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                  Arial, 'Lucida Grande', sans-serif; color: #7f8887;
+                  font-weight: 400; font-size: 14px; line-height: 1.8;">
+                  Get haptic feedback whenever you've surpassed your fitness goals.
+
+                  </p>
+                </td>
+                <tr>
+                  <td>
+                    <a href="#" style="text-decoration:none; font-size:14px; color:#2792ec;">Learn More</a>
+                  </td>
+                </tr>
+              </tr>
+            </table>
+            <!--end of left-column-->
+            <!--start of middle-column-->
+            <table class="hero-middle-column" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0" style="padding: 15px 15px 70px 15px;">
+              <tr>
+                <td>
+                  <table class="title-icon" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0"
+                      style="padding: 0;">
+                      <tr>
+                        <td>
+                          <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/share_icon.png" alt="">
+                        </td>
+                        <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                        Arial, 'Lucida Grande', sans-serif; color: #333333; padding: 0 0 0 15px;
+                        font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                          share
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                  Arial, 'Lucida Grande', sans-serif; color: #7f8887;
+                  font-weight: 400; font-size: 14px; line-height: 1.8;">
+                    Seamlessy share your accomplishments with your contacts with just two taps.
+                  </p>
+                </td>
+                <tr>
+                  <td>
+                    <a href="#" style="text-decoration:none; font-size:14px; color:#2792ec;">Learn More</a>
+                  </td>
+                </tr>
+              </tr>
+            </table>
+            <!--end of middle-column-->
+            <!--start of right-column-->
+            <table class="hero-right-column" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0" style="padding: 15px 15px 70px 15px;">
+              <tr>
+                <td>
+                  <table class="title-icon" width="33.33%" align="left" cellpadding="0" cellspacing="0" border="0"
+                      style="padding: 0;">
+                      <tr>
+                        <td>
+                          <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/wifi_icon.png" alt="">
+                        </td>
+                        <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                        Arial, 'Lucida Grande', sans-serif; color: #333333; padding: 0 0 0 15px;
+                        font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                          connect
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica,
+                  Arial, 'Lucida Grande', sans-serif; color: #7f8887;
+                  font-weight: 400; font-size: 14px; line-height: 1.8;">
+                    Sync all your accomplishments wih our servers at <a href="#" style="text-decoration: none; color: #2792ec;">hero.io</a> and never lose progress.
+                  </p>
+                </td>
+                <tr>
+                  <td>
+                    <a href="#" style="text-decoration:none; font-size:14px; color:#2792ec;">Learn More</a>
+                  </td>
+                </tr>
+              </tr>
+            </table>
+            <!--end of right-column-->
+          </td>
+        </tr>
+        <!--end of hero-row-->
+        
+      
+        <!--start of advance-row-->
+        <tr>
+          <td>
+            <!--start of image-head-->
+            <table class="image-head" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="padding: 50px 0 50px">
+              <tr>
+                <td>
+                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/image-head.jpg" style="width: 100%; height: auto;">
+                </td>
+              </tr>
+            </table>
+              <!--end of image-head-->
+              <!--start of most-advance-->
+              <table class="most-advance-row" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="padding: 0 0 42px;">
+              <tr>
+                <td>
+                  <h2 style="font-weight: 300;" align="center">
+                    World’s <strong style="font-weight: 400;">most advance app</strong><br>with high-tech solutions
+                  </h2>
+                </td>
+              </tr>
+              </table>
+            <!--end of most-advance-->
+            <!--end advance-row-->
+            
+            <!--right-side-->
+            <table class="advance-info-right" width="50%" align="left" cellpadding="0" cellspacing="0" border="0" style="padding: 0 0 0 32px;">
+              <tr>
+                <td>
+                  <p style="color: #7f8887;font-weight: 400;font-size: 14px;line-height: 1.8; margin-top: -29px;">
+                    The Hero app uses advanced tracking to anonomously monitor your movements, be it sleeping, walking, running, or even standing. No matter the activity, Hero is built to give you the most accurate information.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td align="right" class="play-store">
+                  <a href="#"><img style="padding: 36px 0 0;" src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/playstore.png" alt=""></a>
+                </td>
+              </tr>
+            </table>
+            <!--left-side-->
+            <table class="advance-info-left" width="50%" align="right" cellpadding="0" cellspacing="0" border="0" style="padding: 0 0 0 32px;">
+              <tr>
+                <td>
+                  <p style="color: #7f8887;font-weight: 400;font-size: 14px;line-height: 1.8; margin-top: -29px;">
+                    The Hero app uses advanced tracking to anonomously monitor your movements, be it sleeping, walking, running, or even standing. No matter the activity, Hero is built to give you the most accurate information.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="app-store">
+                  <a href="#"><img style="padding-top: 36px;" src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/appstore.png" alt=""></a>
+                </td>
+              </tr>
+            </table>
+            <!--end advance-info-->
+
+          </td>
+        </tr>
+        <!--end of advance-row-->
+        
+      
+        <!--start oneapp-row-->
+        <tr>
+          <td>
+            <table class="one-app" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="margin-top: 50px; background: #141414; text-align: center;">
+              <tr>
+                <td>
+                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/one_app.jpg" width="80%" alt="">
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--end of oneapp-row-->
+        
+      
+        <!--start of joined-together-row-->
+        <tr>
+          <td>
+            <table class="one-solution-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 0 75px; background: white;">
+              <tr>
+                <td>
+                  <h3 style="font-size: 25px; font-weight: 300; color: #383838;" align="center">Features <strong>All Joined Together</strong> in One App</h3>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!--start of left column-->
+                  <table class="left-column-table" width="33.33%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px; background: white;">
+                    <tr>
+                      <td align="center">
+                        <img style="width: 70%; height: auto;"src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/left-column-watch.png" alt="">
+                      </td>
+                      <tr>
+                        <td align="center">
+                          <h5 style="color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                            Sync
+                          </h5>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <p style="color: #7f8887; font-weight: 400; font-size: 14px; margin: 0; padding: 0 0 15px 0;">
+                            Sync your stats for progress tracking.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <a style="text-decoration:none; font-size:14px; color:#2792ec;" href="#">Learn more</a>
+                        </td>
+                      </tr>
+                    </tr>
+                  </table>
+                  <!--end of left column-->
+
+                  <!--start of middle column-->
+                  <table class="middle-column-table" width="33.33%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px; background: white;">
+                    <tr>
+                      <td align="center">
+                        <img style="width: 70%; height: auto;" src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/middle-column-watch.png" alt="">
+                      </td>
+                      <tr>
+                        <td align="center">
+                          <h5 style="color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                            Share
+                          </h5>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <p style="color: #7f8887; font-weight: 400; font-size: 14px; margin: 0; padding: 0 0 15px 0;">
+                            Share your stats with contacts and friends.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <a style="text-decoration:none; font-size:14px; color:#2792ec;" href="#">Learn more</a>
+                        </td>
+                      </tr>
+                    </tr>
+                  </table>
+                  <!--end of middle column-->
+
+                  <!--start of right column-->
+                  <table class="right-column-table" width="33.33%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px; background: white;">
+                    <tr>
+                      <td align="center">
+                        <img style="width: 70%; height: auto;" src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/right-column-watch.png" alt="">
+                      </td>
+                      <tr>
+                        <td align="center">
+                          <h5 style="color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">
+                            stats
+                          </h5>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <p style="color: #7f8887; font-weight: 400; font-size: 14px; margin: 0; padding: 0 0 15px 0;">
+                            Track your stats to determine progress.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <a style="text-decoration:none; font-size:14px; color:#2792ec;" href="#">Learn more</a>
+                        </td>
+                      </tr>
+                    </tr>
+                  </table>
+                  <!--end of right column-->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--end of joined-together-row-->
+        
+        
+        <!--start of details-row-1-->
+        <tr>
+          <td>
+            <table class="detail-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
+              <tr>
+                <td>
+                  <!--start of one-row table-->
+                  <table class="one-row-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0;">
+                    <tr>
+                      <td>
+                        <!--start of right-column-->
+                        <table class="right-detail-column-table" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/phone_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  Responsive Layout
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                Our app is perfected for any size smart watch that you own.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of right-column-->
+
+                        
+                        <!--start of left-column-->
+                        <table class="left-detail-column-table" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/retina.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  Retina Ready
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                The highest quality resolution available for easy viewing and crisp UI.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of left-column-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--end of one-row table-->
+            </table>
+          </td>
+        </tr>
+        <!--end of details-row-->
+        <!--start of details-row-2-->
+        <tr>
+          <td>
+            <table class="detail-table-2" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
+              <tr>
+                <td>
+                  <!--start of one-row table-->
+                  <table class="one-row-table-2" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0; margin-top: -50px;">
+                    <tr>
+                      <td>
+                        <!--start of right-column-->
+                        <table class="right-detail-column-table-2" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/check_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  Various Skins
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                Customize your experience with the many skins we have to choose from, with more coming soon.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of right-column-->
+
+                        
+                        <!--start of left-column-->
+                        <table class="left-detail-column-table-2" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/settings_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  Great Performance
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                We are committed to providing a great Hero experience by providing plenty of updates for years to come.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of left-column-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--end of one-row table-->
+            </table>
+          </td>
+        </tr>
+        <!--end of details-row-2-->
+        <!--start of details-row-3-->
+        <tr>
+          <td>
+            <table class="detail-table-3" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
+              <tr>
+                <td>
+                  <!--start of one-row table-->
+                  <table class="one-row-table-3" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0; margin-top: -50px;">
+                    <tr>
+                      <td>
+                        <!--start of right-column-->
+                        <table class="right-detail-column-table-3" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/menu_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  user-friendly menus
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                Easy to use menus so you can focus on your goals, and not how to navigate our app.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of right-column-->
+
+                        
+                        <!--start of left-column-->
+                        <table class="left-detail-column-table-3" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                          <tr>
+                            <td>
+                              <!--start of icon table-->
+                              <table class="icon-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="">
+                                <td>
+                                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/share_icon.png" alt="">
+                                </td>
+                                <td style="color: #333333; padding: 0 0 0 15px; font-weight: 600; text-transform: uppercase; font-size: 14px;">
+                                  social share
+                                </td>
+                              </table>
+                              <!--end of icon table-->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p style="color: #7f8887; font-weight: 400; font-size: 14px; line-height: 1.8;">
+                                Seamlessy share your profile and stats to any social network; invite friends & sync goals for constant motivation.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end of left-column-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--end of one-row table-->
+            </table>
+          </td>
+        </tr>
+        <!--end of details-row-3-->
+      
+        
+      
+        <!--start of quote-row-->
+        <tr>
+          <td>
+            <table class="quote-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="background: rgb(180,189,200);
+            background: linear-gradient(90deg, rgba(180,189,200,1) 0%, rgba(59,103,124,1) 100%);; font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color:white; padding: 15px 15px 60px 15px">
+              <tr align="center">
+                <td>
+                  <h3 style="font-size:30px; font-weight: 300; margin: 65px 0 0; line-height: 1;" align="center">Intrusted In Our App?</h3>
+                  <p style="font-size: 14px; font-weight: 400; margin: 42px 40px 50px; line-height: 1.5;" align="center">
+                    We are currently in our second wave of fundraising to provide the best fitness app that the market has ever seen. If you believe in hero as much as we do, we've included plenty of heroic incentives for those that donate to our campaign.
+                  </p>
+                  <a href="#" class="btn" style="color: white; border-radius: 2px; border: 2px solid #fff; padding:6px 15px; text-decoration: none; font-weight: 700; text-transform: uppercase; font-size: 12px;">Learn More</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--end of quote-row-->
+        
+      
+        <!--start of footer-row-->
+        <tr>
+          <td>
+            <table class="footer-table" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0 40px;">
+              <tr>
+                <td>
+                  <h1 align="center" style="font-size: 25px;">
+                    HERO<span style="font-size: 10px; font-weight: 300;">&#174;</span>
+                  </h1>
+                </td>
+              </tr>
+              <table class="footer-icons" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="center">
+                    <a href="https://www.twitter.com"><img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/twitter_icon.png" alt="" style="padding-right: 5px;"></a>
+                    <a href="https://www.facebook.com"><img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/facebook_icon.png" alt="" style="padding-right: 5px;"></a>
+                    <a href="https://www.pinterest.com"><img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/pinterest_icon.png" alt="" style="padding-right: 5px;"></a>
+                    <a href="https://www.linkedin.com"><img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/linkedin_icon.png" alt="" style="padding-right: 5px;"></a>
+                    <a href="https://www.youtube.com"><img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/youtube_icon.png" alt="" style="padding-right: 5px;"></a>
+                    <p style="font-size: 9px; color: #7f8887; margin: 50px 0 15px;">
+                      © 2021 All rights reserved - Hero Fitness. Is your inbox overflowing? <a style="text-decoration: none; color: #2792ec;" href="#">Unsubscribe</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </table>
+          </td>
+        </tr>
+        <!--end of footer-row-->
+        
+      </table>
+      <!--end of container-->
+    </td>
+  </tr>
+</table>
+  <!--end of email-->
+  
+</body>
+</html>
+
