@@ -1,1 +1,8 @@
 node_modules/
+gulpfile.js
+package-lock.json
+package.json
+webpack.config.js
+postcss.config.js
+assets/
+public/
