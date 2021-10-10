@@ -10,9 +10,9 @@
   <style>
                  /* DESKTOP */
         @media only screen and (min-width:960px)
-        only screen and (-o-min-device-pixel-ratio: 3/2),
+        /* only screen and (-o-min-device-pixel-ratio: 3/2),
         only screen and (min--moz-device-pixel-ratio: 1.5),
-        only screen and (min-device-pixel-ratio: 1.5){
+        only screen and (min-device-pixel-ratio: 1.5){ */{
 
           html,
           body{
@@ -23,13 +23,27 @@
           .container{
             width: 960px;
           }
+
+          .header-left{
+            padding: 15px 15px 261px 15px !important;
+          }
+
+          .one-app{
+            width: 100%;
+
+          }
+
+          .one-app img{
+            width: 80%;
+
+          }
           
         }
               /* MIDSIZES */
         @media only screen and (max-width:960px)
-        only screen and (-o-min-device-pixel-ratio: 3/2),
+        /* only screen and (-o-min-device-pixel-ratio: 3/2),
         only screen and (min--moz-device-pixel-ratio: 1.5),
-        only screen and (min-device-pixel-ratio: 1.5){
+        only screen and (min-device-pixel-ratio: 1.5){ */{
 
           html,
           body{
@@ -60,9 +74,9 @@
         }
              /* MOBILE */
         @media only screen and (max-width:600px),
-        only screen and (-o-min-device-pixel-ratio: 3/2),
+        /* only screen and (-o-min-device-pixel-ratio: 3/2),
         only screen and (min--moz-device-pixel-ratio: 1.5),
-        only screen and (min-device-pixel-ratio: 1.5){
+        only screen and (min-device-pixel-ratio: 1.5){ */{
 
           html,
           body{
@@ -81,11 +95,12 @@
           }
           
           .header-left p{
-            padding: 20px 10px 50px 0 !important;
+            padding: 20px 20px 50px 0 !important;
           }
 
           .menu{
-            margin: 0 40px !important;
+            margin: 0 40px;
+            padding: 20px 15px !important;
           }
 
           .header-right{
@@ -130,8 +145,6 @@
           
           .advance-info-left img{
             padding: 25px 0 0 !important;
-            /* position: relative; */
-            /* margin: -1px 0 0 140px; */
           }
           
           .advance-info-right{
@@ -143,7 +156,6 @@
           .advance-info-right img{
             padding: 25px 0 0 !important;
             margin: 0px 0px 25px;
-            /* position: absolute; */
           }
 
           .play-store{
@@ -155,6 +167,17 @@
             width: 100%;
             text-align: center;
           }
+
+          .one-app{
+            width: 100%;
+
+          }
+
+          .one-app img{
+            width: 80%;
+
+          }
+
 
           .left-column-table{
             width: 50%;
@@ -174,98 +197,41 @@
             height: auto;
           }
 
-          .right-column-table p{
-            padding: 0 92px 15px !important;
+          .one-row-table{
+            margin: 0 0;
           }
 
           .right-detail-column-table{
             width: 100%;
-            margin: 25px 0 25px;
+            text-align: left;
           }
-          .right-detail-column-table .icon-table img{
-            width: 50%;
-            padding: 0px 4px;
-          }
+          
           .right-detail-column-table p{
-            padding: 0 40px;
+            padding: 0 50px;
           }
+          
           .left-detail-column-table{
             width: 100%;
-            margin: 25px 0 25px;
-          }
-          .left-detail-column-table .icon-table img{
-            width: 40%;
-            padding: 0px 4px;
+            text-align: left;
           }
           .left-detail-column-table p{
-            padding: 0 40px;
-          }
-          .right-detail-column-table-2{
-            width: 100%;
-            margin: 25px 0 25px;
-          }
-          .right-detail-column-table-2 img{
-            width: 40%;
-            padding: 0px 4px;
-          }
-          .right-detail-column-table-2 p{
-            padding: 0 40px;
-          }
-          .left-detail-column-table-1{
-            width: 100%;
-            margin: 25px 0 25px;
-          }
-          .right-detail-column-table-2{
-            width: 100%;
-            margin: -33px 0 25px;
+            padding: 0 50px;
           }
 
-          .left-detail-column-table-2 {
+          .right-detail-column-table .icon-table{
             width: 100%;
-            margin: 25px 0 25px;
+            margin: 40px 15px 0;
           }
-          .left-detail-column-table-2 .icon-table img{
-            width: 50%;
-            padding: 0px 4px;
-          }
-          .left-detail-column-table-2 p{
-            padding: 0 40px;
-          }
-          .right-detail-column-table-3{
+          
+          .left-detail-column-table .icon-table{
             width: 100%;
-            margin: -25px 0 25px;
+            margin: 40px 15px 0;
           }
-          .right-detail-column-table-3 .icon-table img{
-            width: 50%;
-            padding: 0px 4px;
-          }
-          .right-detail-column-table-3 p{
-            padding: 0 40px;
-          }
-          .left-detail-column-table-3{
-            width: 100%;
-            margin: 25px 0 25px;
-          }
-          .left-detail-column-table-3 .icon-table img{
-            width: 40%;
-            padding: 0px 4px;
-          }
-          .left-detail-column-table-3 p{
-            padding: 0 40px;
-          }
-            
-          /* @media only screen and (max-width:600px),
-        only screen and (-o-min-device-pixel-ratio: 3/2),
-        only screen and (min--moz-device-pixel-ratio: 1.5),
-        only screen and (min-device-pixel-ratio: 1.5){
-
-          html,
-          body{
-            width: 100%;
-            overflow-x: hidden;
-          } */
 
         }
+      
+           
+
   </style>
   
   <title>HERO® Fitness App</title>
@@ -472,8 +438,8 @@
               <table class="most-advance-row" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="padding: 0 0 42px;">
               <tr>
                 <td>
-                  <h2 style="font-weight: 300;" align="center">
-                    World’s <strong style="font-weight: 400;">most advance app</strong><br>with high-tech solutions
+                  <h2 style="font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; margin:0; padding: 0; font-weight: 300;" align="center">
+                    World’s <span style="font-weight: 400;">most advance app</span><br>with high-tech solutions
                   </h2>
                 </td>
               </tr>
@@ -524,7 +490,7 @@
             <table class="one-app" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="margin-top: 50px; background: #141414; text-align: center;">
               <tr>
                 <td>
-                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/one_app.jpg" width="80%" alt="one-app-header-image">
+                  <img src="https://raw.githubusercontent.com/lee-android/html-email/master/public/img/production/one_app.jpg" width="100%" alt="one-app-header-image">
                 </td>
               </tr>
             </table>
@@ -713,15 +679,15 @@
         <!--start of details-row-2-->
         <tr>
           <td>
-            <table class="detail-table-2" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
+            <table class="detail-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
               <tr>
                 <td>
                   <!--start of one-row table-->
-                  <table class="one-row-table-2" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0; margin-top: -50px;">
+                  <table class="one-row-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0; margin-top: -50px;">
                     <tr>
                       <td>
                         <!--start of right-column-->
-                        <table class="right-detail-column-table-2" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                        <table class="right-detail-column-table" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
                           <tr>
                             <td>
                               <!--start of icon table-->
@@ -748,7 +714,7 @@
 
                         
                         <!--start of left-column-->
-                        <table class="left-detail-column-table-2" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                        <table class="left-detail-column-table" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
                           <tr>
                             <td>
                               <!--start of icon table-->
@@ -785,15 +751,15 @@
         <!--start of details-row-3-->
         <tr>
           <td>
-            <table class="detail-table-3" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
+            <table class="detail-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 50px 0; background: #fafafa;">
               <tr>
                 <td>
                   <!--start of one-row table-->
-                  <table class="one-row-table-3" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0; margin-top: -50px;">
+                  <table class="one-row-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0; margin-top: -50px;">
                     <tr>
                       <td>
                         <!--start of right-column-->
-                        <table class="right-detail-column-table-3" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                        <table class="right-detail-column-table" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
                           <tr>
                             <td>
                               <!--start of icon table-->
@@ -820,7 +786,7 @@
 
                         
                         <!--start of left-column-->
-                        <table class="left-detail-column-table-3" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
+                        <table class="left-detail-column-table" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 0px 15px;">
                           <tr>
                             <td>
                               <!--start of icon table-->
